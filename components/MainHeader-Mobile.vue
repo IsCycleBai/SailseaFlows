@@ -57,11 +57,8 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, computed } from "vue";
-import { useI18n } from '#imports';
+import { computed } from "vue";
 
-const { t } = useI18n();
-const { metaSymbol } = useShortcuts();
 const isOpen = ref(false);
 const commandPaletteRef = ref();
 const AppConfig = useAppConfig();
