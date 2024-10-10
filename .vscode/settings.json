@@ -1,0 +1,8 @@
+{
+    "eslint.enable": true,
+    "eslint.run": "onSave",
+    "i18n-ally.localesPaths": [
+      "lang"
+    ]
+  }
+  

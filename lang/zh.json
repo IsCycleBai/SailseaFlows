@@ -1,0 +1,11 @@
+{
+    "header": {
+        "home": "流",
+        "discover": "探索",
+        "category": "分类",
+        "user": "用户"
+    },
+    "actions": {
+        "createThread": "创建新线程"
+    }
+}

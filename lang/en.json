@@ -1,0 +1,15 @@
+{
+    "header": {
+        "home": "Flow",
+        "discover": "Discover",
+        "category": "Category",
+        "user": "User"
+    },
+    "actions": {
+        "createThread": "Create a Thread"
+    },
+    "postInfo": {
+        "replies": "Replies",
+        "views": "Views"
+    }
+}
