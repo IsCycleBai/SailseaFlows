@@ -1,6 +1,7 @@
 <template>
   <NuxtLayout name="mobile">
     <PostPreview-Mobile
+      :id="1"
       title="如何使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组如何如何使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组使用 Vue 3 和 Tailwind CSS 创建组如何使用 Vue 3 和 Tailwind CSS 创建组件"
       category="前端开发"
       :tags="['Vue', 'Tailwind CSS', 'JavaScript']"
