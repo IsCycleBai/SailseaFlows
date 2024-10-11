@@ -7,6 +7,7 @@
       <div class="flex-1">
         <h2
           class="text-xl font-bold text-gray-800 dark:text-white mb-2 mt-0 line-clamp-2 md:max-w-5xl max-w-3xl"
+          @click="$router.push(`/ViewPost/${props.id}`)"
         >
           {{ title }}
         </h2>
@@ -113,6 +114,10 @@ const props = defineProps({
     type: Number,
     required: true,
   },
+  id: {
+    type: Number,
+    required: true,
+  }
 });
 
 const isMobile = ref(false);
@@ -126,6 +131,7 @@ const checkMobile = () => {
 onMounted(() => {
   checkMobile();
   window.addEventListener("resize", checkMobile);
+  console.log(props);
 });
 
 // Remove event listener on unmount
