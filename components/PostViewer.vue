@@ -5,11 +5,11 @@
     <div class="flex flex-col md:flex-row md:items-center justify-between">
       <!-- Title and Content -->
       <div class="flex-1">
-        <h2
-            class="text-xl font-bold text-gray-800 dark:text-white mb-2 mt-0 line-clamp-2 md:max-w-5xl max-w-3xl"
+        <h1
+            class="text-2xl font-bold text-gray-800 dark:text-white mb-2 mt-0 line-clamp-2 md:max-w-5xl max-w-3xl"
         >
           {{ title }}
-        </h2>
+        </h1>
 
         <div class="mr-4 text-sm text-gray-500 dark:text-gray-400">
           <div>
